@@ -1,0 +1,39 @@
+BODY { 
+   font: 8pt Verdana, Geneva, Arial, Helvetica, sans-serif; 
+   margin: 10 0 10 0px; 
+   text-align: center; 
+   background-color: #ebebeb; 
+} 
+
+#form1 {
+background-color: #F2F2F2;
+padding: 10px;
+margin-bottom: 15px;
+}
+
+
+#contenedor{ 
+   width: 800px; 
+   margin: auto; 
+} 
+
+#cuerpo{ 
+   margin: 10 0 10 0px; 
+} 
+#lateral{ 
+   width: 200px; 
+   float:left; 
+} 
+#principal{ 
+
+background-color: #F2F2F2;
+padding: 10px;
+
+
+
+} 
+#pie{ 
+   background-color: #cccccc; 
+   padding: 3 10 3 10px; 
+   text-align:right; 
+} 

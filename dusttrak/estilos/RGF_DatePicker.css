@@ -1,0 +1,71 @@
+/**
+ * Default stylesheet for the Date Picker Control
+ *
+ * Copyright (c) 2008 Akinwale Ariwodola
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ * 
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ *
+ */
+
+table.rgf_cal {
+    background: #ddd;
+}
+
+table.rgf_cal td {
+    text-align: right;
+    font: 11px Tahoma, sans-serif;
+    padding: 4px
+}
+
+tr.rgf_cal_h {
+    background: #ddd
+}
+
+tr.rgf_day_h {
+    background: #eee
+}
+
+tr.rgf_cal_h td {
+    font-weight: bold;
+    text-align: center
+}
+
+tr.rgf_day_r {
+    background: #fff
+}
+
+tr.rgf_day_r td {
+    cursor: pointer;
+    width: 15px
+}
+
+tr.rgf_day_r td:hover {
+    background: #ccc;
+    color: #000
+}
+
+td.rgf_today {
+    background: #777;
+    font-weight: bold;
+    color: #fff
+}
+
+td.rgf_cal_btn {
+    cursor: pointer
+}
